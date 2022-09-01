@@ -1,0 +1,188 @@
+{
+  "workbench.editor.enablePreview": true,
+  "workbench.startupEditor": "welcomePage",
+  "files.eol": "\n", // LF
+  "files.autoSave": "off",
+  "files.encoding": "utf8",
+  "editor.detectIndentation": true,
+  "editor.guides.indentation": true,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "editor.fontFamily": "'Jetbrains Mono', 'Courier New', monospace",
+  "editor.fontSize": 13,
+  "editor.lineHeight": 1.2,
+  "terminal.integrated.fontSize": 12,
+  "editor.renderWhitespace": "selection",
+  "editor.renderControlCharacters": true,
+  "editor.cursorStyle": "line",
+  "editor.lineNumbers": "on",
+  "editor.wordWrap": "off",
+  "editor.rulers": [
+    80
+  ],
+  "editor.guides.bracketPairs": "active",
+  "editor.guides.bracketPairsHorizontal": "active",
+  "editor.quickSuggestions": {
+    "strings": true,
+  },
+  /* Inlay Hints */
+  "editor.inlayHints.enabled": "on",
+  "javascript.inlayHints.variableTypes.enabled": true,
+  "typescript.inlayHints.variableTypes.enabled": true,
+  "editor.inlayHints.fontSize": 12,
+  "editor.inlayHints.fontFamily": "Consolas",
+  "editor.inlayHints.padding": true,
+  /* Emmet enable tab completion */
+  "emmet.triggerExpansionOnTab": true,
+  /* Theme */
+  "workbench.colorCustomizations": {
+    "sideBarSectionHeader.foreground": "#ff80f9",
+    "editorInlayHint.foreground": "#818181"
+  },
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.iconTheme": "vscode-icons",
+  "editor.tokenColorCustomizations": {
+    "[One Dark Pro Flat]": {}
+  },
+  /* Vim */
+  "vim.foldfix": true,
+  "vim.useCtrlKeys": false,
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "INFO",
+    "FEATURE",
+    "WARNING",
+    "BUG",
+    "MENTION",
+    "IDEA",
+    "REVIEW",
+    "BOOKMARK",
+    "OPTIMIZE",
+    "EXPLANATION",
+    "TESTED",
+    "CLIENT-REQUEST",
+    "[ ]",
+    "[x]"
+  ],
+  "todo-tree.highlights.highlightDelay": 100,
+  "todo-tree.highlights.customHighlight": {
+    "BOOKMARK": {
+      "type": "tag",
+      "foreground": "#222",
+      "background": "#9c8d34",
+      "gutterIcon": true,
+      "icon": "bookmark",
+      "iconColour": "#9c8d34"
+    },
+    "OPTIMIZE": {
+      "type": "tag",
+      "foreground": "#000",
+      "background": "#89b140",
+      "gutterIcon": true,
+      "icon": "rocket",
+      "iconColour": "#89b140"
+    },
+    "TESTED": {
+      "type": "tag",
+      "foreground": "#000",
+      "background": "#66cf62",
+      "gutterIcon": true,
+      "iconColour": "#66cf62"
+    },
+    "TODO": {
+      "type": "tag",
+      "foreground": "#000",
+      "background": "#c7c7c7",
+      "gutterIcon": true,
+      "icon": "dash",
+      "iconColour": "#c7c7c7"
+    },
+    "REVIEW": {
+      "type": "tag",
+      "foreground": "#333",
+      "background": "#00b68e",
+      "gutterIcon": true,
+      "icon": "eye",
+      "iconColour": "#00b68e"
+    },
+    "FIXME": {
+      "type": "tag",
+      "foreground": "#000",
+      "background": "#ff5b5b",
+      "iconColour": "#ff5b5b",
+      "gutterIcon": true
+    },
+    "INFO": {
+      "type": "tag",
+      "foreground": "#000",
+      "background": "#5f92ff",
+      "gutterIcon": true,
+      "icon": "info",
+      "iconColour": "#5f92ff"
+    },
+    "WARNING": {
+      "type": "tag",
+      "foreground": "#000",
+      "background": "#f19c19",
+      "gutterIcon": true,
+      "icon": "alert",
+      "iconColour": "#f19c19"
+    },
+    "FEATURE": {
+      "type": "tag",
+      "foreground": "#000",
+      "background": "#d45fa3",
+      "gutterIcon": true,
+      "icon": "zap",
+      "iconColour": "#d45fa3"
+    },
+    "BUG": {
+      "type": "tag",
+      "foreground": "#000",
+      "background": "#b482d4",
+      "gutterIcon": true,
+      "icon": "bug",
+      "iconColour": "#b482d4"
+    },
+    "MENTION": {
+      "type": "tag",
+      "foreground": "#000",
+      "background": "#00c9c9",
+      "gutterIcon": true,
+      "icon": "mention",
+      "iconColour": "#00c9c9"
+    },
+    "IDEA": {
+      "type": "tag",
+      "foreground": "#000",
+      "background": "#cfcf2d",
+      "gutterIcon": true,
+      "icon": "moon",
+      "iconColour": "#cfcf2d"
+    },
+    "EXPLANATION": {
+      "type": "tag",
+      "foreground": "#000",
+      "background": "#d69898",
+      "gutterIcon": true,
+      "icon": "squirrel",
+      "iconColour": "#d69898"
+    },
+    "CLIENT-REQUEST": {
+      "type": "tag",
+      "foreground": "#000",
+      "background": "#e0b76a",
+      "gutterIcon": true,
+      "icon": "person",
+      "iconColour": "#e0b76a",
+    }
+  },
+  "todo-tree.tree.scanMode": "workspace",
+  "todo-tree.general.statusBar": "none",
+  "todo-tree.highlights.enabled": true,
+  "todo-tree.tree.showCountsInTree": true,
+  "todo-tree.tree.buttons.scanMode": true,
+}
