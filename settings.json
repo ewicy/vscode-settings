@@ -12,18 +12,17 @@
   "editor.fontSize": 13,
   "editor.lineHeight": 1.2,
   "terminal.integrated.fontSize": 12,
+  "terminal.integrated.fontFamily": "FiraCode Nerd Font",
   "editor.renderWhitespace": "selection",
   "editor.renderControlCharacters": true,
   "editor.cursorStyle": "line",
   "editor.lineNumbers": "on",
   "editor.wordWrap": "off",
-  "editor.rulers": [
-    80
-  ],
+  "editor.rulers": [80],
   "editor.guides.bracketPairs": "active",
   "editor.guides.bracketPairsHorizontal": "active",
   "editor.quickSuggestions": {
-    "strings": true,
+    "strings": true
   },
   /* Inlay Hints */
   "editor.inlayHints.enabled": "on",
@@ -177,7 +176,7 @@
       "background": "#e0b76a",
       "gutterIcon": true,
       "icon": "person",
-      "iconColour": "#e0b76a",
+      "iconColour": "#e0b76a"
     }
   },
   "todo-tree.tree.scanMode": "workspace",
@@ -185,4 +184,3 @@
   "todo-tree.highlights.enabled": true,
   "todo-tree.tree.showCountsInTree": true,
   "todo-tree.tree.buttons.scanMode": true,
-}
